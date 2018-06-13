@@ -1,0 +1,30 @@
+cmds:
+cd  /root/Documents
+ls
+sh zookeeper3.14.0/zkserver.sh start  conf1/zoo.cfg
+
+solar
+
+
+for permission use the below cmd:
+
+chmod 755 solr 
+
+./solr -c -p -force 7777
+
+  sh zookeeper-3.4.12/bin/zkServer.sh stop conf1/zoo.cfg 
+  166  sh zookeeper-3.4.12/bin/zkServer.sh start conf1/zoo.cfg 
+  167  sh zookeeper-3.4.12/bin/zkServer.sh start conf2/zoo.cfg 
+  168  sh zookeeper-3.4.12/bin/zkServer.sh start-foreground conf3/zoo.cfg 
+  169  cd solrr
+  170  cd solr
+  171  dir
+  172  cd bin
+  173  dir
+  174  solr start -c -p 7777
+ 
+  183  chmod 755 solr
+  184  ls
+  185  ./solr 
+  186  ./solr start -c -p 7777
+  187  ./solr start -c -p 7777 -force
